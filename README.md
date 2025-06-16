@@ -32,34 +32,34 @@ Price range: Restaurant category (cheap/moderate/expensive)
 
 
 #### Step 2: Machine Learning Model Development
-#####Model Training and Evaluation
+##### Model Training and Evaluation
 Implemented and compared multiple machine learning algorithms with detailed performance metrics:
 
-###### Support Vector Regression (SVR):
+<ins> Support Vector Regression (SVR): </ins>
 
 Mean Absolute Error: 0.370
 Mean Squared Error: 0.474
 
 
-###### Decision Tree Regressor:
+<ins> Decision Tree Regressor: </ins>
 
 Mean Absolute Error: 0.349
 Mean Squared Error: 0.445
 
 
-###### Random Forest:
+<ins> Random Forest: </ins>
 
 Mean Absolute Error: 0.350
 Mean Squared Error: 0.444
 
 
-###### K-Nearest Neighbors (KNN):
+<ins> K-Nearest Neighbors (KNN): </ins>
 
 Mean Absolute Error: 0.351
 Mean Squared Error: 0.447
 
 
-###### AdaBoost:
+<ins> AdaBoost: </ins>
 
 Mean Absolute Error: 0.365
 Mean Squared Error: 0.450
@@ -84,21 +84,21 @@ Developed a user-friendly web application using Streamlit
 Created an interactive interface for real-time restaurant rating predictions
 Enables users to input restaurant features and receive instant rating predictions
 
-Application Features
+<ins>Application Features</ins>
 
 Input fields for the four key restaurant features
 Real-time prediction display
 Clean, intuitive user interface for easy interaction
 
-Key Insights
+<ins>Key Insights</ins>
 
-Model Performance Ranking:
+* *Model Performance Ranking:*
 
 Random Forest achieved the best performance (MSE: 0.444)
 Decision Tree was second best (MSE: 0.445)
 Tree-based models significantly outperformed other approaches
 
 
-Feature Importance: The analysis revealed that cost, reservation availability, delivery options, and price range are the most significant predictors of restaurant ratings
-Algorithm Effectiveness: Tree-based algorithms outperformed traditional regression methods, suggesting complex non-linear relationships between features and ratings
-Business Application: The model provides actionable insights for restaurateurs to optimize their service offerings with quantifiable impact predictions
+* *Feature Importance:* The analysis revealed that cost, reservation availability, delivery options, and price range are the most significant predictors of restaurant ratings
+* *Algorithm Effectiveness:* Tree-based algorithms outperformed traditional regression methods, suggesting complex non-linear relationships between features and ratings
+* *Business Application:* The model provides actionable insights for restaurateurs to optimize their service offerings with quantifiable impact predictions
